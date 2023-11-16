@@ -6,5 +6,8 @@ public class App2 {
 
         Elemento<Integer, Integer> obj2 = new Elemento<Integer,Integer>(100, 100);
         System.out.println( obj2.getDato1() );
+
+        System.out.println(obj1);
+        System.out.println(obj2);
     }
 }

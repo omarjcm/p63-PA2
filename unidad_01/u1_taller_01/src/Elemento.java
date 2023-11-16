@@ -18,4 +18,9 @@ public class Elemento<T, V> {
     public V getDato2() {
         return dato2;
     }
+
+    @Override
+    public String toString() {
+        return this.dato1 + " - " + this.dato2;
+    }
 }
