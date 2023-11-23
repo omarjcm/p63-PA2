@@ -30,7 +30,7 @@ public class Persona {
 
     public boolean equals(Object objeto) {
         Persona persona = (Persona) objeto;
-        return (this.cedula == persona.getCedula() && this.apellido == persona.getApellido() && this.nombre == persona.getNombre());
+        return (this.cedula == persona.getCedula());
     }
 
     @Override
